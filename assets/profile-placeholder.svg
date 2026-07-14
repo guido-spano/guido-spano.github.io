@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title description">
-  <title id="title">Profile photograph placeholder</title>
-  <desc id="description">Upload a photograph named profile.jpg to replace this placeholder.</desc>
-  <rect width="720" height="900" fill="#dbe7e5"/>
-  <circle cx="360" cy="315" r="126" fill="#1b5c5d" opacity="0.86"/>
-  <path d="M148 800c18-190 93-294 212-294s194 104 212 294" fill="#1b5c5d" opacity="0.86"/>
-  <text x="360" y="850" fill="#12494a" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="middle">Add assets/profile.jpg</text>
-</svg>
