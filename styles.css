@@ -1,13 +1,10 @@
 :root {
-  /*
-   * Primary green: #415317 (RGB 65, 83, 23).
-   * Previous blue: #315a92 (RGB 49, 90, 146).
-   */
-  --green: rgb(65, 83, 23);
-  --green-light: rgba(65, 83, 23, 0.1);
+  --teal: #1b5c5d;
+  --teal-dark: #12494a;
+  --teal-light: #e9f1f0;
   --ink: #202625;
   --muted: #606968;
-  --line: rgba(65, 83, 23, 0.18);
+  --line: #dce3e1;
   --paper: #ffffff;
   --max-width: 1160px;
   --content-width: 1040px;
@@ -71,7 +68,7 @@ a:focus-visible {
   z-index: 100;
   padding: 9px 14px;
   color: #fff;
-  background: var(--green);
+  background: var(--teal-dark);
   transform: translateY(-160%);
   transition: transform 150ms ease;
 }
@@ -106,7 +103,7 @@ a:focus-visible {
 }
 
 .site-name {
-  color: var(--green);
+  color: var(--teal-dark);
   font-size: clamp(2rem, 4.1vw, 2.75rem);
   font-weight: 400;
   line-height: 1.05;
@@ -119,7 +116,7 @@ a:focus-visible {
   flex-wrap: wrap;
   gap: 9px 28px;
   padding-bottom: 2px;
-  color: var(--green);
+  color: var(--teal-dark);
   font-size: 0.94rem;
 }
 
@@ -134,7 +131,7 @@ a:focus-visible {
 
 .intro {
   color: #fff;
-  background: var(--green);
+  background: var(--teal);
 }
 
 .intro-grid {
@@ -194,7 +191,7 @@ a:focus-visible {
 
 h2 {
   margin: 0;
-  color: var(--green);
+  color: var(--teal-dark);
   font-size: clamp(1.65rem, 3vw, 2rem);
   font-weight: 400;
   line-height: 1.25;
@@ -208,7 +205,7 @@ h2 {
 .paper h3 {
   max-width: 900px;
   margin: 0;
-  color: var(--green);
+  color: var(--teal-dark);
   font-size: clamp(1.13rem, 2vw, 1.35rem);
   font-weight: 500;
   line-height: 1.45;
@@ -243,8 +240,8 @@ h2 {
   align-items: center;
   min-height: 36px;
   padding: 5px 13px;
-  color: var(--green);
-  background: var(--green-light);
+  color: var(--teal-dark);
+  background: var(--teal-light);
   border: 1px solid transparent;
   border-radius: 3px;
   font-size: 0.84rem;
@@ -255,7 +252,7 @@ h2 {
 
 .paper-links a:hover {
   background: #fff;
-  border-color: var(--green);
+  border-color: var(--teal);
 }
 
 .subsection-heading {
@@ -267,8 +264,8 @@ h2 {
 }
 
 .site-footer {
-  color: #eef1e8;
-  background: var(--green);
+  color: #e9f1f0;
+  background: var(--teal-dark);
 }
 
 .footer-inner {
