@@ -1,4 +1,4 @@
-# Guido Spanò — academic website
+# Guido Spanò — website
 
 This is a responsive static academic website designed for GitHub Pages. Its visual structure is inspired by the restrained, text-led format of Morgane Richard's academic website, while using an original implementation and content tailored to Guido Spanò.
 
