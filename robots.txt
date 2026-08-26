@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guido-spano.github.io/sitemap.xml
