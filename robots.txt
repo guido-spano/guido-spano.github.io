@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://guido-spano.github.io/sitemap.xml
+Sitemap: https://guido-spano.com/sitemap.xml
