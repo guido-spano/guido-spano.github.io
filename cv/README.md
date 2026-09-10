@@ -20,7 +20,7 @@ Compared with `assets/Guido-Spano-CV.pdf` (Git blob `dae8d0027f225f1ff37818f243e
 - Updates the header domain and revision month.
 - Retains plain black hyperlink text with no underlining or borders.
 
-The live CV at `assets/Guido-Spano-CV.pdf` and website navigation are unchanged. The revised PDF awaits approval before replacing the live CV.
+The revised PDF is also published at `assets/Guido-Spano-CV.pdf`, the file used by the website CV link. It includes the linked “PhD Scholar at the Stone Centre at UCL” entry under Service and Memberships. The original source and PDF are retained for reference.
 
 ## Compile from the repository root
 
