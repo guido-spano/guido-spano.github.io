@@ -1,0 +1,196 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{changepage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\geometry{
+  top=0.50in,
+  bottom=0.48in,
+  left=0.43in,
+  right=0.43in
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\urlstyle{same}
+
+\newenvironment{cvbody}
+  {\begin{adjustwidth}{0.43in}{0.43in}}
+  {\end{adjustwidth}}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{9pt}%
+  {\large\bfseries #1}\par
+  \vspace{3pt}\hrule\vspace{5pt}%
+}
+
+\newcommand{\datedline}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X>{\raggedleft\arraybackslash}p{1.12in}@{}}
+    #1 & #2
+  \end{tabularx}\par
+}
+
+\newcommand{\paper}[3]{%
+  \textbf{``#1''}#2\par
+  \vspace{3pt}
+  {\fontsize{8.3}{9.6}\selectfont\textit{Abstract:} #3\par}
+  \vspace{6pt}
+}
+
+\newcommand{\wip}[2]{%
+  \textbf{``#1''}#2\par\vspace{5pt}
+}
+
+
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Guido Span\`o}\par
+\end{center}
+\vspace{2pt}
+
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \small
+  University College London\\
+  Department of Economics\\
+  30 Gordon Street, WC1H 0AX \\
+  London, United Kingdom
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+  \small\raggedleft
+  \textit{Last updated: July 2026}\\
+  \href{https://guido-spano.github.io/}{guido-spano.github.io} \\
+  \href{mailto:guido.spano.21@ucl.ac.uk}{guido.spano.21@ucl.ac.uk}\\
+  +44 (0)7743 991465
+\end{minipage}
+
+\vspace{4pt}
+
+\cvsection{Education}
+\vspace{4pt}
+\begin{cvbody}
+  \datedline{\textbf{PhD in Economics}, University College London}{2023--present}
+  Supervisors: Franck Portier and Morten O. Ravn\\[-1pt]
+  Thesis: \textit{Essays on Financial Intermediation, Monetary Transmission, and Inequality}
+  \vspace{4pt}
+
+  \datedline{\textbf{MRes and MPhil in Economics}, University College London}{2021--2023}
+  \vspace{4pt}
+
+  \datedline{\textbf{Laurea Magistrale in Actuarial Sciences}, Sapienza University of Rome}{2016--2019}
+  110/110 cum laude; Sapienza School for Advanced Studies
+  \vspace{4pt}
+
+  \datedline{\textbf{Laurea Triennale in Statistics}, Sapienza University of Rome}{2013--2016}
+  110/110 cum laude; exchange semester at the University of Graz
+\end{cvbody}
+
+\cvsection{Professional Experience}
+\vspace{4pt}
+\begin{cvbody}
+  \datedline{European Central Bank: Trainee, Research Analyst, and Consultant}{2018--2022}
+  {\fontsize{8.3}{9.5}\selectfont Market Operations Analysis Division; Stress Test Modelling Division (Market Risk and Credit Risk teams)\par}
+  \vspace{4pt}
+  \datedline{Bank of Italy: Research Intern (Mortara Scholarship)}{2020--2022}
+  {\fontsize{8.3}{9.5}\selectfont Economic Outlook and Monetary Policy Directorate (Modelling and Forecasting; Monetary Analysis)\par}
+\end{cvbody}
+
+\cvsection{Research Areas}
+\vspace{4pt}
+\begin{cvbody}
+  Macroeconomics, Monetary Policy, Banking and Inequality.
+\end{cvbody}
+
+\cvsection{Work in Progress}
+\vspace{4pt}
+
+\begin{cvbody}
+  \paper{Bank Pass-Through and Monetary Redistribution}{}{This paper studies how incomplete pass-through from policy rates to retail deposit and loan rates shapes monetary redistribution. The Italian Survey on Household Income and Wealth (SHIW) data show that low-wealth households are deposit-heavy, mortgage exposure is concentrated in the middle of the wealth distribution, and equity ownership and bank-profit income accrue disproportionately to richer households. I embed deposits, loans, bank profits, and sticky retail rates in a two-asset HANK model calibrated to household portfolios and MPCs. Following a monetary tightening, weak deposit pass-through and stronger loan-rate adjustment redistribute income away from depositors and borrowers toward bank shareholders. Relative to competitive banking, these frictions amplify the increase in wealth inequality and the fall in the bottom-half wealth share. The competitive-banking counterfactual suggests that policies strengthening deposit-market competition and depositor mobility could attenuate the redistribution toward bank shareholders and the resulting increase in wealth inequality.}
+
+\vspace{4pt}
+
+  \paper{Ample Reserves and Deposit Pass-Through}{}{This paper studies how the euro area transition from a scarce-reserves operating framework to an ample-reserves regime with fixed-rate full allotment changed the pass-through from policy rates to household current account rates. Using IV local projections identified with high-frequency monetary policy surprises, I show that deposit-rate pass-through is low, substantially weaker in the ample-reserves era than in the pre-2008 scarce-reserves regime, and decreasing in country-level reserve abundance. To interpret these facts, I develop a parsimonious bank model in which deposit pricing depends on the expected marginal cost of non-deposit funding. The funding block combines Poole-style stochastic reserve shortfalls with collateralized policy-rate borrowing. Under ample reserves, shortfall risk is negligible and pass-through is governed by deposit-market primitives. Under scarce reserves, reserve shortfalls may exhaust eligible collateral capacity and force the bank into more expensive residual funding, generating stronger deposit-rate pass-through. Next steps are to test the mechanism with bank-level ECB IMIR/IBSI data and to embed the pricing block in a richer dynamic general-equilibrium model with bank intermediation.}    
+
+\vspace{4pt}
+
+  \paper{No Country for Young Managers: How Age and Tenure Shape the Distribution of Italian Firms}{ with Marta Morazzoni, Luca Citino, and Stefano Pietrosanti}{We study how credit is allocated over the managerial life-cycle and its aggregate consequences. Using matched Italian administrative records on firm balance sheets, top managers, and credit outcomes, we document significant age- and tenure-based credit gradients: younger and less-tenured entrepreneurs obtain less credit and face higher denial risk, despite higher average revenue product of capital. We develop a general-equilibrium heterogeneous agent model with occupational choices in which firms' borrowing capacity evolves with managerial age and within-firm tenure. The model matches the empirical life-cycle patterns in credit and capital productivity, and implies sizeable misallocation through constrained entry and expansion of high-productivity young entrepreneurs. Counterfactuals reveal that broad collateral easing and targeted flattening of age-based collateral generate output and welfare gains, whereas flattening tenure-based collateral yields smaller gains and higher inequality. Policy exercises show that fiscal subsidies and user-cost relief on capital to young entrepreneurs at entry can deliver aggregate gains, while public-guaranteed collateral is welfare-improving when eligibility extends to their first few entrepreneurial years, despite a materially higher fiscal cost.}
+
+\end{cvbody}
+
+\newpage
+
+
+\vspace{4pt}
+\cvsection{Working Papers}
+
+\vspace{4pt}
+
+\begin{cvbody}
+
+  \paper{Banks' Funding Structure and Pass-Through in the Euro Area}{ with Juan Manuel Figueres. Upcoming in ECB Working Paper Series}{This paper investigates the interest rate pass-through of monetary policy as for the euro area by focusing on the role of banks' funding structure. We estimate the interest rate pass-through for loans to non-financial corporations by using bank-level balance sheet data. In doing so, we interact the response of lending rates with characteristics of the funding structure, and show that banks that rely more on bond issuance rather than the money market tend to be less responsive to policy changes. Finally, we test the presence of the asset-liability-management channel, and find that banks combining longer-term liabilities (higher bond shares) with longer fixation lending (higher share of loans with fixed rates) exhibit the most muted lending rate response to policy shocks.}
+
+\vspace{4pt}
+ 
+  \paper{A Sensitivities Based CoVaR Approach to Assets Commonality and Its Application to SSM Banks}{ with Leonardo Del Vecchio, Carla Giglio, Frances Shaw, and Giuseppe Cappelletti. \href{https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2725~8ecb5a7ea3.en.pdf}{ECB Working Paper Series No. 2725}, 2022.}{ One important source of systemic risk can arise from asset commonality among financial institutions. This indirect interconnection may occur when financial institutions invest in similar or correlated assets and it is also described as overlapping portfolios. In this paper, we propose a new methodology for identifying and assessing banking sector systemic risk stemming from asset commonality in the spirit of CoVaR as defined by Adrian and Brunnermeier (2016). Based on granular information, we compute bank portfolio sensitivities to a large number of risk factors (e.g. interest rates, equity prices, credit spreads, exchange rates) and then compute the gains and losses under a large number of historical scenarios and the associated $\Delta$CoVaR. The novel indicator proves to be consistent with other indicators of systemic importance, yet it has a more transparent foundation in terms of the source of systemic risk, which can contribute to effective micro and macroprudential supervision. }
+
+\end{cvbody}
+
+
+\cvsection{Conferences and Seminars}
+\vspace{4pt}
+\begin{cvbody}
+  \textbf{AY 2025/26}\quad ENTER Jamboree; 10th EFiC Conference in Banking and Corporate Finance; 8th International Conference on European Economics and Politics, KOF--ETH Zurich
+  \vspace{4pt}
+
+  \textbf{AY 2024/25}\quad European Central Bank, DGMF Seminar; 8th Eurosystem ChaMP Workstream 1 Workshop, Banco de Portugal; 56th Annual Conference of the Money, Macro and Finance Society; 13th SIdE Workshop for PhD Students in Econometrics and Empirical Economics (WEEE); 9th EFiC Conference in Banking and Corporate Finance
+\end{cvbody}
+
+\cvsection{Teaching}
+\vspace{4pt}
+\begin{cvbody}
+  \datedline{UCL, ECON0038: Economics of Money and Banking, Undergraduate}{2023--2026}
+  \datedline{LSE, EC2B5: Macroeconomics II, Undergraduate}{2023--2026}
+  \datedline{UCL, ECON0028: Economics of Growth, Undergraduate}{2022--2023}
+  Tutoring: Oxford MPhil Economics; LSE MSc Financial Statistics and BSc Economics
+\end{cvbody}
+
+\cvsection{Awards and Honors}
+\vspace{4pt}
+\begin{cvbody}
+  \datedline{UCL Excellent Personal Tutoring Student Choice Award}{2022--2023}
+  \datedline{UCL tuition-fee exemption, MRes in Economics}{2021--2022}
+  \datedline{Sapienza Worthy Student Award }{2013--2016}
+   {\fontsize{8.3}{9.5}\selectfont Bachelor award with full tuition-fee exemption \par}
+  \datedline{Sapienza School for Advanced Studies}{2013--2019}
+  {\fontsize{8.3}{9.5}\selectfont Research programme with tuition-fee exemption, housing, and project scholarships\par}
+\end{cvbody}
+
+\cvsection{Service and Memberships}
+\vspace{4pt}
+\begin{cvbody}
+  \datedline{PhD Student Representative, UCL Department of Economics}{2024--present}
+   \datedline{Member, Italian Econometric Association}{2019--present}
+\end{cvbody}
+
+\cvsection{Skills}
+\vspace{4pt}
+\begin{cvbody}
+  \textbf{Computational:} Python, Matlab, Dynare, R, Stata, \LaTeX\\
+  \textbf{Languages:} Italian (native), English (proficient), German (intermediate)
+\end{cvbody}
+
+\end{document}
