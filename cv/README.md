@@ -15,7 +15,7 @@ Compared with `assets/Guido-Spano-CV.pdf` (Git blob `dae8d0027f225f1ff37818f243e
 
 - Adds the ECB Working Paper Series No. 3274, 2026 citation and hyperlinks the two working-paper titles. Uses the ECB publication's plural title, “Banks’ Funding Structures and Pass-Through in the Euro Area”.
 - Adds the Stone Centre PhD Scholarship (2026–2027), with the linked centre name on a smaller second line.
-- Links the three AY 2024/25 conferences to their event pages. No public event pages were found for the DGMF seminar or the eighth ChaMP Workstream 1 workshop; these remain unlinked.
+- Links the three AY 2024/25 conferences to their event pages. The ChaMP workshop links to the ECB page supplied by the user. The DGMF seminar remains unlinked.
 - Updates AY 2025/26 with all five requested linked events.
 - Updates the header domain and revision month.
 - Retains plain black hyperlink text with no underlining or borders.
